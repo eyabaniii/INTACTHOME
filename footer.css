@@ -1,0 +1,49 @@
+
+footer{
+    padding: 2em 0;
+    display:flex;
+    flex-direction: row;
+    color:var(--white);
+    justify-content: space-around;
+    background-color:var(--bleu);
+}
+footer .contact{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+footer  svg{
+    margin-right: 1em;
+}
+footer ul img{
+    width:15em;
+    
+}
+footer ul{
+margin:1em;
+
+    list-style: none;
+}
+footer ul li .description{
+    padding-top:2rem;
+    font-family: 'Lucida Handwriting Std', sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 600;                                         
+
+}
+
+footer ul li .phone,footer ul li .mail,footer ul li .adresse{
+    text-align: left;
+    margin-left: 5em;
+}
+
+
+.droits{
+    color:var(--white);
+    background-color:var(--bleu);
+    font-size: smaller;
+    
+}
