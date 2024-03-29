@@ -42,7 +42,7 @@ text-align: center;
 @media screen and (min-width: 769px) {
   .mainsec {
     padding: 24vh 5vw 10vh 5vw;
-    height: 88.5vh;
+    height: 88vh;
   }
   .mainsec p {
     font-size: 2vw;
