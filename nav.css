@@ -51,17 +51,20 @@ nav .phone , .phone1{
     margin-top:0.7em;
     font-weight: bold;
     color :var(--bleu);
-text-align: center;
+    text-align: center;
     padding: 8px;
     border-radius: 8px;
     background-color: var(--white);
     
    
 }
-nav .phone span ,.phone1 span{
+
+nav .phone span a,.phone1 span a{
     animation: blink 1.8s infinite;
     font-size: 1.2rem;
     color:var(--red);
+    text-shadow: none;
+    font-family:  Arial, sans-serif;
   }
   .navbar.active {
     top: 80px;
