@@ -17,6 +17,7 @@ h4 {
 padding: 0;
 }
 
+
 :root {
   --black: #0000;
   --white: #ffff;
@@ -28,6 +29,7 @@ padding: 0;
   --spanShadow: rgba(0, 0, 0, 0.2);
   --red:#ff0000;
   --maincolor:#fffefe;
+  --servicefirst:#464646;
 }
 img {
   width: 100%;

@@ -29,7 +29,7 @@
 
 .result .card .resultdes span { 
        font-weight:500;
- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+ text-shadow: 2px 2px 4px var(--spanShadow);
     line-height: 1.6;
     }
 /*==MEDIA QUERY==*/
@@ -38,6 +38,7 @@
 display: flex;
 padding: 2vh 1vw;
 flex-direction: column;
+gap: 50px;
   }
 
 }
@@ -47,6 +48,8 @@ flex-direction: column;
         display: flex;
         padding: 2vh 1vw;
         flex-direction: column;
+        gap: 50px;
+
           }
         
 }
